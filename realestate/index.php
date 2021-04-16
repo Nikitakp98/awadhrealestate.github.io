@@ -1,0 +1,145 @@
+<?php
+session_start();
+?>
+
+<html>
+
+  <head>
+    <title> Home | Awadh Landmark Reality Pvt. Ltd</title>
+  </head>
+
+  <link rel="stylesheet" type = "text/css" href ="bootstrap.min.css">
+
+  <link rel="stylesheet" type = "text/css" href ="index.css">
+  <link rel="stylesheet" type="text/css" href="about.css">
+
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top navigation-clean-search" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse " id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active" ><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
+            <li class="active"><a href="aboutus.php"><i class="fa fa-users"></i> About</a></li>
+
+          </ul>
+       </div>
+
+      </div>
+    </nav>
+
+    <div class="wide">
+      	<div class="col-xs-5 line"><hr></div>
+        <div class="col-xs-2 logo"><img src="logo.jpeg"></div>
+        <div class="col-xs-5 line"><hr></div>
+        <div class="tagline">A name you can trust</div>
+    </div>
+    <img src="2.jpg" style="box-shadow: 10px 10px 5px gray; width: 100%">
+    <br><br>
+      <h2 style="font-family:  cursive; text-align:center;"> <b> We are working in different areas of Lucknow, HAVE A LOOK ON THEM!! </b></h2>
+    </div>
+
+ <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header  text-primary"><center>Our Sites</center></h2>
+                <h4><center>For more details click on picture</center></h4>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#p1">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="3.jpeg" alt="">
+                </a>
+                <p><center><h3>Aashirvad Enclave</h3><br>Location – Mohanlal Ganj Raibareli Road distance from highway 50mt.</center></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#p2">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="Royal.jpg" alt="">
+                </a>
+                <p><center><h3>Royal Greens</h3><br>Location- Bangarmau- Kannuaj Highway, 7 km from Ramada Hotel, 5 km from Agra exp way</center></p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#p3">
+                    <img class="img-responsive img-portfolio img-thumbnail img-hover" src="Sage.jpeg" alt="">
+                </a>
+                <p><center><h3>Sage City</h3><br>Location-Near Bijnor CRPF camp, SDRF camp 9km from Airport 1.5 km from proposed outer ring road.</center></p>
+            </div>
+
+            
+  </div>
+  <div class="section" id="p1">
+    <br><br>
+     <span class="border"></span>
+    <span class="name">Aashirvad Enclave</span>
+    <pre style="text-align: justify;padding: 20px; font-family: cursive;">
+Location – Mohanlal Ganj Raibareli Road distance from highway 50mt.
+Distance from various points- 
+                Tehsil-----------------03min
+                School/Hospital-----03min
+                SGPGI----------------09min
+                Shaheed Path-------10min
+                Cantt/Sadar-------- 15min
+                Charbagh Railway Station---20min
+Price-1150Rs/SQFT Immediate Registry & Possession
+Note – Size of plot- 800sqft, 1000sqft,1200sqft,1500sqft,2000sqft and above.
+    </pre>
+    <span class="border"></span>
+    <p>
+  </div>
+  <div class="section" id="p2">
+    <br><br>
+    <span class="border"></span>
+    <span class="name">Royal Greens</span>
+    <pre style="text-align: justify;padding: 20px; font-family: cursive;">
+Location- Bangarmau- Kannuaj Highway, 7 km from Ramada Hotel, 5 km from Agra exp way
+Price- 550/SQFT
+Immediate Registry & Possession
+Note – Size of plot- 800sqft, 1000sqft,1200sqft,1500sqft,2000sqft and above.
+    </pre>
+    <span class="border"></span>
+  </div>
+  <div class="section" id="p3">
+    <br><br>
+      <span class="border"></span>
+    <span class="name">Sage City</span>
+    <pre style="text-align: justify;padding: 20px; font-family: cursive;">
+Location-Near Bijnor CRPF camp, SDRF camp 9km from Airport 1.5 km from 
+proposed outer ring road 17 km from charbagh, 03km from Sarojani Nagar 
+Tehsil, 06km parallel to Kanpur road on Bijnor road, 10 km from Saheed path.
+PLOT SIZE - 2153Sqft, 1453sqft, 1210sqft, 968sqft.
+PRICE - 1499Rs/SQFT
+
+RERA REGISTERD- UPRERAPRJ107418
+LIDA APPROVED
+BANK FINANCE AVAIALBLE FROM NATIONALIZED BANK AND ICICI
+60% GREENERY & 40% PLOTING
+10000.5 SQMT CRICKET GROUND/OUTDOOR SPORTS
+TOTAL AREA OF TOWN SHIP 45ACER
+25ACER APRROVED, REST 20 ACER IN 2024 
+
+PROJECT FEATURE
+1)Fabulous elevated furnished entrance gate
+2)Wide internal road 9mt, 12mt, 18mt.
+3)Street lights/Electricity poles 
+4)Tree lined pathways
+5)Swimming Pool/park & Garden
+6)Club house
+7)Water/Electricity supply
+8)Cricket Stadium 110000 sqft
+9)Underground drainage facilities 
+10)24 X 7 Security
+11)Outdoor Sports etc.
+</pre>
+
+    <span class="border"></span>
+        </div>
+</body>
+</html>
